@@ -4,7 +4,7 @@
 
 Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers
 
-![grpcurl](https://repo.x-cmd.io/grpcurl.svg)
+![grpcurl](https://repo.x-cmd.io/grpcurl.svg?lang=zh)
 
 ## 安装
 
@@ -23,15 +23,49 @@ x install grpcurl
 - **最新版本**: `v1.9.4` (2026-08-31)
 - **最近提交**: 2026-09-02
 - **Release 含资产**: 30 个
-- **发布时间**: 2026-08-31T19:20:03Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [grpcurl_1.9.4_checksums.txt](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_checksums.txt) | 2.8 KiB | `other` |
+| [grpcurl_1.9.4_linux_386.deb](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_386.deb) | 8.9 MiB | `other` |
+| [grpcurl_1.9.4_linux_386.rpm](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_386.rpm) | 9.3 MiB | `other` |
+| [grpcurl_1.9.4_linux_amd64.deb](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_amd64.deb) | 9.5 MiB | `native/linux/x64` |
+| [grpcurl_1.9.4_linux_amd64.rpm](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_amd64.rpm) | 9.9 MiB | `native/linux/x64` |
+| [grpcurl_1.9.4_linux_arm64.deb](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_arm64.deb) | 8.6 MiB | `native/linux/arm64` |
+| [grpcurl_1.9.4_linux_arm64.rpm](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_arm64.rpm) | 8.9 MiB | `native/linux/arm64` |
+| [grpcurl_1.9.4_linux_arm64.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_arm64.tar.gz) | 8.6 MiB | `native/linux/arm64` |
+| [grpcurl_1.9.4_linux_armv5.deb](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_armv5.deb) | 8.9 MiB | `native/linux/arm` |
+| [grpcurl_1.9.4_linux_armv5.rpm](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_armv5.rpm) | 9.2 MiB | `native/linux/arm` |
+| [grpcurl_1.9.4_linux_armv5.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_armv5.tar.gz) | 8.9 MiB | `native/linux/arm` |
+| [grpcurl_1.9.4_linux_armv6.deb](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_armv6.deb) | 8.9 MiB | `native/linux/arm` |
+| [grpcurl_1.9.4_linux_armv6.rpm](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_armv6.rpm) | 9.2 MiB | `native/linux/arm` |
+| [grpcurl_1.9.4_linux_armv6.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_armv6.tar.gz) | 8.9 MiB | `native/linux/arm` |
+| [grpcurl_1.9.4_linux_armv7.deb](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_armv7.deb) | 8.9 MiB | `native/linux/arm` |
+| [grpcurl_1.9.4_linux_armv7.rpm](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_armv7.rpm) | 9.2 MiB | `native/linux/arm` |
+| [grpcurl_1.9.4_linux_armv7.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_armv7.tar.gz) | 8.9 MiB | `native/linux/arm` |
+| [grpcurl_1.9.4_linux_ppc64le.deb](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_ppc64le.deb) | 8.7 MiB | `other` |
+| [grpcurl_1.9.4_linux_ppc64le.rpm](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_ppc64le.rpm) | 9.0 MiB | `other` |
+| [grpcurl_1.9.4_linux_ppc64le.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_ppc64le.tar.gz) | 8.6 MiB | `native/unknown` |
+| [grpcurl_1.9.4_linux_s390x.deb](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_s390x.deb) | 9.2 MiB | `runtime/deb/s390x` |
+| [grpcurl_1.9.4_linux_s390x.rpm](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_s390x.rpm) | 9.6 MiB | `other` |
+| [grpcurl_1.9.4_linux_s390x.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_s390x.tar.gz) | 9.2 MiB | `native/unknown` |
+| [grpcurl_1.9.4_linux_x86_32.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_x86_32.tar.gz) | 8.9 MiB | `native/unknown` |
+| [grpcurl_1.9.4_linux_x86_64.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_x86_64.tar.gz) | 9.5 MiB | `native/linux/x64` |
+| [grpcurl_1.9.4_osx_arm64.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_osx_arm64.tar.gz) | 9.1 MiB | `native/darwin/arm64` |
+| [grpcurl_1.9.4_osx_x86_64.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_osx_x86_64.tar.gz) | 9.8 MiB | `native/darwin/x64` |
+| [grpcurl_1.9.4_windows_arm64.zip](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_windows_arm64.zip) | 8.7 MiB | `native/win/arm64` |
+| [grpcurl_1.9.4_windows_x86_32.zip](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_windows_x86_32.zip) | 9.3 MiB | `native/win/x64` |
+| [grpcurl_1.9.4_windows_x86_64.zip](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_windows_x86_64.zip) | 9.8 MiB | `native/win/x64` |
 
 ## 流行度
 
-- **Star**: 12,804 · **Fork**: 579 · **开放 issue**: 281 · **贡献者**: 73
+- **Star**: 12,809 · **Fork**: 579 · **开放 issue**: 281 · **贡献者**: 73
 
 ## 累计统计
 
-- **发布数**: 28 · **已合并 PR**: 227 · **开放 PR**: 11 · **已关闭 issue**: 171 · **开放 issue**: 110 · **提交数**: 251
+- **发布数**: 28 · **已合并 PR**: 227 · **开放 PR**: 11 · **已关闭 issue**: 175 · **开放 issue**: 106 · **提交数**: 251
 
 ## 最近活动
 
@@ -39,7 +73,7 @@ x install grpcurl
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 1 | 5 | 2 | 0 | 2 | 5 |
 | 90d | 2026-06-12 | 1 | 10 | 2 | 2 | 2 | 11 |
-| 360d | 2025-09-15 | 1 | 23 | 2 | 12 | 13 | 23 |
+| 360d | 2025-09-15 | 1 | 23 | 2 | 16 | 9 | 23 |
 
 ## 代码规模
 
@@ -72,4 +106,4 @@ grpcurl 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:44:12Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:45:21Z._

@@ -23,15 +23,49 @@ x install grpcurl
 - **Latest**: `v1.9.4` (2026-08-31)
 - **Last commit**: 2026-09-02
 - **Assets in release**: 30
-- **Published**: 2026-08-31T19:20:03Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [grpcurl_1.9.4_checksums.txt](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_checksums.txt) | 2.8 KiB | `other` |
+| [grpcurl_1.9.4_linux_386.deb](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_386.deb) | 8.9 MiB | `other` |
+| [grpcurl_1.9.4_linux_386.rpm](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_386.rpm) | 9.3 MiB | `other` |
+| [grpcurl_1.9.4_linux_amd64.deb](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_amd64.deb) | 9.5 MiB | `native/linux/x64` |
+| [grpcurl_1.9.4_linux_amd64.rpm](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_amd64.rpm) | 9.9 MiB | `native/linux/x64` |
+| [grpcurl_1.9.4_linux_arm64.deb](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_arm64.deb) | 8.6 MiB | `native/linux/arm64` |
+| [grpcurl_1.9.4_linux_arm64.rpm](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_arm64.rpm) | 8.9 MiB | `native/linux/arm64` |
+| [grpcurl_1.9.4_linux_arm64.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_arm64.tar.gz) | 8.6 MiB | `native/linux/arm64` |
+| [grpcurl_1.9.4_linux_armv5.deb](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_armv5.deb) | 8.9 MiB | `native/linux/arm` |
+| [grpcurl_1.9.4_linux_armv5.rpm](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_armv5.rpm) | 9.2 MiB | `native/linux/arm` |
+| [grpcurl_1.9.4_linux_armv5.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_armv5.tar.gz) | 8.9 MiB | `native/linux/arm` |
+| [grpcurl_1.9.4_linux_armv6.deb](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_armv6.deb) | 8.9 MiB | `native/linux/arm` |
+| [grpcurl_1.9.4_linux_armv6.rpm](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_armv6.rpm) | 9.2 MiB | `native/linux/arm` |
+| [grpcurl_1.9.4_linux_armv6.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_armv6.tar.gz) | 8.9 MiB | `native/linux/arm` |
+| [grpcurl_1.9.4_linux_armv7.deb](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_armv7.deb) | 8.9 MiB | `native/linux/arm` |
+| [grpcurl_1.9.4_linux_armv7.rpm](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_armv7.rpm) | 9.2 MiB | `native/linux/arm` |
+| [grpcurl_1.9.4_linux_armv7.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_armv7.tar.gz) | 8.9 MiB | `native/linux/arm` |
+| [grpcurl_1.9.4_linux_ppc64le.deb](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_ppc64le.deb) | 8.7 MiB | `other` |
+| [grpcurl_1.9.4_linux_ppc64le.rpm](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_ppc64le.rpm) | 9.0 MiB | `other` |
+| [grpcurl_1.9.4_linux_ppc64le.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_ppc64le.tar.gz) | 8.6 MiB | `native/unknown` |
+| [grpcurl_1.9.4_linux_s390x.deb](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_s390x.deb) | 9.2 MiB | `runtime/deb/s390x` |
+| [grpcurl_1.9.4_linux_s390x.rpm](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_s390x.rpm) | 9.6 MiB | `other` |
+| [grpcurl_1.9.4_linux_s390x.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_s390x.tar.gz) | 9.2 MiB | `native/unknown` |
+| [grpcurl_1.9.4_linux_x86_32.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_x86_32.tar.gz) | 8.9 MiB | `native/unknown` |
+| [grpcurl_1.9.4_linux_x86_64.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_x86_64.tar.gz) | 9.5 MiB | `native/linux/x64` |
+| [grpcurl_1.9.4_osx_arm64.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_osx_arm64.tar.gz) | 9.1 MiB | `native/darwin/arm64` |
+| [grpcurl_1.9.4_osx_x86_64.tar.gz](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_osx_x86_64.tar.gz) | 9.8 MiB | `native/darwin/x64` |
+| [grpcurl_1.9.4_windows_arm64.zip](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_windows_arm64.zip) | 8.7 MiB | `native/win/arm64` |
+| [grpcurl_1.9.4_windows_x86_32.zip](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_windows_x86_32.zip) | 9.3 MiB | `native/win/x64` |
+| [grpcurl_1.9.4_windows_x86_64.zip](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_windows_x86_64.zip) | 9.8 MiB | `native/win/x64` |
 
 ## Popularity
 
-- **Stars**: 12,804 · **Forks**: 579 · **Open issues**: 281 · **Contributors**: 73
+- **Stars**: 12,809 · **Forks**: 579 · **Open issues**: 281 · **Contributors**: 73
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 227 · **Open PRs**: 11 · **Closed issues**: 171 · **Open issues**: 110 · **Commits**: 251
+- **Releases**: 28 · **Merged PRs**: 227 · **Open PRs**: 11 · **Closed issues**: 175 · **Open issues**: 106 · **Commits**: 251
 
 ## Recent activity
 
@@ -39,7 +73,7 @@ x install grpcurl
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 1 | 5 | 2 | 0 | 2 | 5 |
 | 90d | 2026-06-12 | 1 | 10 | 2 | 2 | 2 | 11 |
-| 360d | 2025-09-15 | 1 | 23 | 2 | 12 | 13 | 23 |
+| 360d | 2025-09-15 | 1 | 23 | 2 | 16 | 9 | 23 |
 
 ## Code size
 
@@ -68,8 +102,8 @@ Lowest-scoring checks:
 Install metadata for grpcurl lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `grpcurl` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/grpcurl.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/grpcurl.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:44:12Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:45:21Z._
