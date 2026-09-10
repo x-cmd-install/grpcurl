@@ -12,6 +12,28 @@ Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers
 x install grpcurl
 ```
 
+## 代码规模
+
+合计: **9,659** 行代码（覆盖前 5 种语言、共 **37** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Go | 9,161 | 894 | 1,272 | 26 |
+| Protobuf | 264 | 142 | 74 | 6 |
+| Sh | 86 | 34 | 32 | 3 |
+| Makefile | 78 | 9 | 20 | 1 |
+| Yaml | 45 | 1 | 1 | 1 |
+
+## OpenSSF Scorecard 评分
+
+总评分: **5.9 / 10**
+
+评分最低的几项:
+
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Security-Policy** (0/10) — security policy file not detected
+- **Fuzzing** (0/10) — project is not fuzzed
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/fullstorydev/grpcurl>
@@ -23,6 +45,25 @@ x install grpcurl
 - **最新版本**: `v1.9.4` (2026-08-31)
 - **最近提交**: 2026-09-02
 - **Release 含资产**: 30 个
+
+## 流行度
+
+- **Star**: 12,809 · **Fork**: 579 · **开放 issue**: 281 · **贡献者**: 73
+
+## 累计统计
+
+- **发布数**: 28 · **已合并 PR**: 227 · **开放 PR**: 11 · **已关闭 issue**: 175 · **开放 issue**: 106 · **提交数**: 251
+
+## 最近活动
+
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 1 | 5 | 2 | 0 | 2 | 5 |
+| last60d | 2026-07-12 | 1 | 8 | 2 | 0 | 2 | 8 |
+| 90d | 2026-06-12 | 1 | 10 | 2 | 2 | 2 | 11 |
+| last180d | 2026-03-14 | 1 | 16 | 2 | 7 | 5 | 17 |
+| 360d | 2025-09-15 | 1 | 23 | 2 | 16 | 9 | 23 |
+| last720d | 2024-09-20 | 3 | 40 | 3 | 19 | 20 | 44 |
 
 ## Release 资产
 
@@ -59,43 +100,17 @@ x install grpcurl
 | [grpcurl_1.9.4_windows_x86_32.zip](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_windows_x86_32.zip) | 9.3 MiB | `native/win/x64` |
 | [grpcurl_1.9.4_windows_x86_64.zip](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_windows_x86_64.zip) | 9.8 MiB | `native/win/x64` |
 
-## 流行度
+## 发行版状态
 
-- **Star**: 12,809 · **Fork**: 579 · **开放 issue**: 281 · **贡献者**: 73
+在 [repology.org](https://repology.org/project/grpcurl) 上共有 **39** 个发行版报告此项目。**10** 个 ✅ 已是最新上游版本，**25** 个 ⚠️ 使用旧版本。
 
-## 累计统计
-
-- **发布数**: 28 · **已合并 PR**: 227 · **开放 PR**: 11 · **已关闭 issue**: 175 · **开放 issue**: 106 · **提交数**: 251
-
-## 最近活动
-
-| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 5 | 2 | 0 | 2 | 5 |
-| 90d | 2026-06-12 | 1 | 10 | 2 | 2 | 2 | 11 |
-| 360d | 2025-09-15 | 1 | 23 | 2 | 16 | 9 | 23 |
-
-## 代码规模
-
-合计: **9,659** 行代码（覆盖前 5 种语言、共 **37** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Go | 9,161 | 894 | 1,272 | 26 |
-| Protobuf | 264 | 142 | 74 | 6 |
-| Sh | 86 | 34 | 32 | 3 |
-| Makefile | 78 | 9 | 20 | 1 |
-| Yaml | 45 | 1 | 1 | 1 |
-
-## OpenSSF Scorecard 评分
-
-总评分: **5.9 / 10**
-
-评分最低的几项:
-
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Security-Policy** (0/10) — security policy file not detected
-- **Fuzzing** (0/10) — project is not fuzzed
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Homebrew | `1.9.4` | ✅ latest |
+| Fedora rawhide | `1.9.4` | ✅ latest |
+| Nix unstable | `1.9.4` | ✅ latest |
+| Void | `1.9.4` | ✅ latest |
+| Alpine edge | `1.9.3` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -106,4 +121,4 @@ grpcurl 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:45:21Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:59:45Z._
