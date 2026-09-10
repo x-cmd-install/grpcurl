@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.9.4"
   latestRelease: "v1.9.4"
   latestPrerelease: "v1.8.4"
-  collectedAt: 2026-09-10T16:45:11Z
+  collectedAt: 2026-09-10T20:59:38Z
 timeline:
   created: 2017-11-20
   lastCommit: 2026-09-02
@@ -86,7 +86,7 @@ total:
   commit: 251
 ---
 path: /home/runner/.x-repo/github.com/fullstorydev/grpcurl
-collectedAt: 2026-09-10T16:45:13Z
+collectedAt: 2026-09-10T20:59:39Z
 loc:
   Go:
     code: 9161
