@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.9.4"
   latestRelease: "v1.9.4"
   latestPrerelease: "v1.8.4"
-  collectedAt: 2026-09-10T04:44:06Z
+  collectedAt: 2026-09-10T16:45:11Z
 timeline:
   created: 2017-11-20
   lastCommit: 2026-09-02
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-08-31
   lastPrerelease: 2021-10-07
 popularity:
-  star: 12804
+  star: 12809
   watcher: 77
   fork: 579
   release: 28
@@ -58,35 +58,35 @@ recent:
     release: 1
     mergedPR: 16
     openPR: 2
-    closedIssue: 6
-    openIssue: 6
+    closedIssue: 7
+    openIssue: 5
     commit: 17
   last360d:
     since: 2025-09-15
     release: 1
     mergedPR: 23
     openPR: 2
-    closedIssue: 12
-    openIssue: 13
+    closedIssue: 16
+    openIssue: 9
     commit: 23
   last720d:
     since: 2024-09-20
     release: 3
     mergedPR: 40
     openPR: 3
-    closedIssue: 15
-    openIssue: 24
+    closedIssue: 19
+    openIssue: 20
     commit: 44
 total:
   release: 28
   mergedPR: 227
   openPR: 11
-  closedIssue: 171
-  openIssue: 110
+  closedIssue: 175
+  openIssue: 106
   commit: 251
 ---
 path: /home/runner/.x-repo/github.com/fullstorydev/grpcurl
-collectedAt: 2026-09-10T04:44:07Z
+collectedAt: 2026-09-10T16:45:13Z
 loc:
   Go:
     code: 9161
