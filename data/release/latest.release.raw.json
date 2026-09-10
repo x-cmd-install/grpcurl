@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 2823,
       "digest": "sha256:f861790e2dd2ac2a3cc29cb985edc5554fe8460fec1a238863ccf6f5b82e677c",
-      "download_count": 625,
+      "download_count": 649,
       "created_at": "2026-08-31T19:20:02Z",
       "updated_at": "2026-08-31T19:20:02Z",
       "browser_download_url": "https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_checksums.txt"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 9699670,
       "digest": "sha256:8db93e3ef9e00c33b29076cfa98956bcd50fe93fcedcfe910cb45f146b5c695f",
-      "download_count": 13,
+      "download_count": 14,
       "created_at": "2026-08-31T19:19:59Z",
       "updated_at": "2026-08-31T19:20:00Z",
       "browser_download_url": "https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_386.rpm"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 10008592,
       "digest": "sha256:c0f3213a3b9ccdf88b005eb91c406c1c0186fbdc3115385907d8cced6313cf41",
-      "download_count": 485,
+      "download_count": 489,
       "created_at": "2026-08-31T19:19:57Z",
       "updated_at": "2026-08-31T19:19:58Z",
       "browser_download_url": "https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_amd64.deb"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 10369904,
       "digest": "sha256:535fad8f058f1486cad44c10768bbcefdef28fa1efb9bdf54e9010cac0ed2014",
-      "download_count": 136,
+      "download_count": 137,
       "created_at": "2026-08-31T19:19:59Z",
       "updated_at": "2026-08-31T19:20:00Z",
       "browser_download_url": "https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_amd64.rpm"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 9026859,
       "digest": "sha256:ad66227d90631da5428b4a5ccf28d63846f0f15649d8b2367df044a59edbb617",
-      "download_count": 1564,
+      "download_count": 1587,
       "created_at": "2026-08-31T19:19:56Z",
       "updated_at": "2026-08-31T19:19:57Z",
       "browser_download_url": "https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_arm64.tar.gz"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 9311026,
       "digest": "sha256:1b6e0c340e4a9d8cf09cfd8657580d84bbcb6e01a84d97e08d97ab2a0d381c68",
-      "download_count": 4,
+      "download_count": 5,
       "created_at": "2026-08-31T19:19:52Z",
       "updated_at": "2026-08-31T19:19:53Z",
       "browser_download_url": "https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_armv6.tar.gz"
@@ -895,7 +895,7 @@
       "state": "uploaded",
       "size": 9311402,
       "digest": "sha256:477d75634099756de77f6f1c709a651af86ea6e821b96d5c1c5a425da0db2ed1",
-      "download_count": 357,
+      "download_count": 359,
       "created_at": "2026-08-31T19:19:52Z",
       "updated_at": "2026-08-31T19:19:53Z",
       "browser_download_url": "https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_x86_32.tar.gz"
@@ -931,7 +931,7 @@
       "state": "uploaded",
       "size": 9968722,
       "digest": "sha256:97e13d58d2733a0e62cd2571d1d5f0c02823f0d25282f08bddedf1ad9c5d1736",
-      "download_count": 28640,
+      "download_count": 28874,
       "created_at": "2026-08-31T19:19:52Z",
       "updated_at": "2026-08-31T19:19:53Z",
       "browser_download_url": "https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_x86_64.tar.gz"
@@ -967,7 +967,7 @@
       "state": "uploaded",
       "size": 9513972,
       "digest": "sha256:e0df111350acf8ee38f453f4e97e0474cfe1a987ee0c368ebe5383e6a4bccf25",
-      "download_count": 15005,
+      "download_count": 15118,
       "created_at": "2026-08-31T19:19:54Z",
       "updated_at": "2026-08-31T19:19:54Z",
       "browser_download_url": "https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_osx_arm64.tar.gz"
@@ -1111,7 +1111,7 @@
       "state": "uploaded",
       "size": 10257221,
       "digest": "sha256:412dbe98dc6f3fddfbdc15db061768495d3b4c6ee24de998c83c36f79857680d",
-      "download_count": 25058,
+      "download_count": 25269,
       "created_at": "2026-08-31T19:19:52Z",
       "updated_at": "2026-08-31T19:19:53Z",
       "browser_download_url": "https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_windows_x86_64.zip"
