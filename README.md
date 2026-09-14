@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 5 | 2 | 0 | 1 | 5 |
-| last60d | 2026-07-15 | 1 | 8 | 2 | 0 | 2 | 8 |
-| 90d | 2026-06-15 | 1 | 10 | 2 | 1 | 2 | 11 |
-| last180d | 2026-03-17 | 1 | 16 | 2 | 7 | 5 | 17 |
-| 360d | 2025-09-18 | 1 | 23 | 2 | 15 | 9 | 23 |
-| last720d | 2024-09-23 | 3 | 40 | 3 | 19 | 20 | 44 |
+| 30d | 2026-08-15 | 1 | 5 | 2 | 0 | 1 | 4 |
+| last60d | 2026-07-16 | 1 | 8 | 2 | 0 | 2 | 8 |
+| 90d | 2026-06-16 | 1 | 10 | 2 | 1 | 2 | 10 |
+| last180d | 2026-03-18 | 1 | 16 | 2 | 7 | 5 | 17 |
+| 360d | 2025-09-19 | 1 | 23 | 2 | 15 | 9 | 23 |
+| last720d | 2024-09-24 | 3 | 40 | 3 | 19 | 20 | 44 |
 
 ## Release assets
 
@@ -100,18 +100,6 @@ Lowest-scoring checks:
 | [grpcurl_1.9.4_windows_x86_32.zip](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_windows_x86_32.zip) | 9.3 MiB | `native/win/x64` |
 | [grpcurl_1.9.4_windows_x86_64.zip](https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_windows_x86_64.zip) | 9.8 MiB | `native/win/x64` |
 
-## Distribution status
-
-Reported by **40** distros on [repology.org](https://repology.org/project/grpcurl). **12** are ✅ on the latest upstream release, **22** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Homebrew | `1.9.4` | ✅ latest |
-| Fedora rawhide | `1.9.4` | ✅ latest |
-| Nix unstable | `1.9.4` | ✅ latest |
-| Void | `1.9.4` | ✅ latest |
-| Alpine edge | `1.9.3` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for grpcurl lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `grpcurl` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -121,4 +109,4 @@ Install metadata for grpcurl lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:00:01Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:09:08Z._
