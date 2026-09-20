@@ -4,7 +4,7 @@
 
 Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers
 
-![grpcurl](https://repo.x-cmd.io/grpcurl.svg)
+[![x-cmd/install — grpcurl Code Quality Monitoring Repo Card](https://repo.x-cmd.io/grpcurl.svg)](https://x-cmd.com/install/grpcurl)
 
 ## Install
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,816 · **Forks**: 580 · **Open issues**: 282 · **Contributors**: 73
+- **Stars**: 12,817 · **Forks**: 580 · **Open issues**: 282 · **Contributors**: 73
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 4 | 2 | 0 | 2 | 4 |
-| last60d | 2026-07-20 | 1 | 8 | 2 | 0 | 3 | 8 |
-| 90d | 2026-06-20 | 1 | 10 | 2 | 1 | 3 | 10 |
-| last180d | 2026-03-22 | 1 | 16 | 2 | 7 | 6 | 17 |
-| 360d | 2025-09-23 | 1 | 23 | 2 | 15 | 10 | 23 |
-| last720d | 2024-09-28 | 3 | 40 | 3 | 19 | 21 | 44 |
+| 30d | 2026-08-21 | 1 | 4 | 2 | 0 | 2 | 4 |
+| last60d | 2026-07-22 | 1 | 8 | 2 | 0 | 3 | 8 |
+| 90d | 2026-06-22 | 1 | 10 | 2 | 1 | 3 | 10 |
+| last180d | 2026-03-24 | 1 | 16 | 2 | 6 | 6 | 17 |
+| 360d | 2025-09-25 | 1 | 23 | 2 | 15 | 9 | 23 |
+| last720d | 2024-09-30 | 3 | 40 | 3 | 19 | 21 | 44 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for grpcurl lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T04:51:58Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:04:42Z._
