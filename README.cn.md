@@ -4,7 +4,7 @@
 
 Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers
 
-[![x-cmd/install — grpcurl Code Quality Monitoring Repo Card](https://repo.x-cmd.io/grpcurl.svg?lang=zh)](https://x-cmd.com/install/grpcurl)
+[![x-cmd/install — grpcurl Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/grpcurl.svg?lang=zh)](https://x-cmd.com/install/grpcurl)
 
 ## 安装
 
@@ -48,7 +48,7 @@ x install grpcurl
 
 ## 流行度
 
-- **Star**: 12,819 · **Fork**: 580 · **开放 issue**: 282 · **贡献者**: 73
+- **Star**: 12,826 · **Fork**: 581 · **开放 issue**: 282 · **贡献者**: 73
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install grpcurl
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 4 | 2 | 0 | 2 | 4 |
-| last60d | 2026-07-24 | 1 | 7 | 2 | 0 | 3 | 5 |
-| 90d | 2026-06-24 | 1 | 10 | 2 | 1 | 3 | 10 |
-| last180d | 2026-03-26 | 1 | 16 | 2 | 6 | 6 | 17 |
-| 360d | 2025-09-27 | 1 | 23 | 2 | 14 | 9 | 22 |
-| last720d | 2024-10-02 | 3 | 40 | 3 | 19 | 21 | 44 |
+| 30d | 2026-08-25 | 1 | 4 | 2 | 0 | 2 | 4 |
+| last60d | 2026-07-26 | 1 | 7 | 2 | 0 | 3 | 5 |
+| 90d | 2026-06-26 | 1 | 10 | 2 | 1 | 3 | 10 |
+| last180d | 2026-03-28 | 1 | 16 | 2 | 6 | 4 | 17 |
+| 360d | 2025-09-29 | 1 | 22 | 2 | 14 | 8 | 22 |
+| last720d | 2024-10-04 | 3 | 40 | 3 | 19 | 21 | 43 |
 
 ## Release 资产
 
@@ -109,4 +109,4 @@ grpcurl 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T05:04:06Z._
+_数据快照: `data/card/260924.yml` · 2026-09-24T04:47:09Z._
