@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,830 · **Forks**: 581 · **Open issues**: 282 · **Contributors**: 73
+- **Stars**: 12,831 · **Forks**: 581 · **Open issues**: 282 · **Contributors**: 73
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-26 | 1 | 4 | 2 | 0 | 2 | 4 |
-| last60d | 2026-07-27 | 1 | 5 | 2 | 0 | 3 | 5 |
-| 90d | 2026-06-27 | 1 | 10 | 2 | 1 | 3 | 10 |
-| last180d | 2026-03-29 | 1 | 16 | 2 | 6 | 4 | 17 |
-| 360d | 2025-09-30 | 1 | 22 | 2 | 14 | 8 | 22 |
-| last720d | 2024-10-05 | 3 | 40 | 3 | 19 | 21 | 43 |
+| 30d | 2026-08-27 | 1 | 4 | 2 | 0 | 2 | 4 |
+| last60d | 2026-07-28 | 1 | 5 | 2 | 0 | 3 | 5 |
+| 90d | 2026-06-28 | 1 | 10 | 2 | 1 | 3 | 10 |
+| last180d | 2026-03-30 | 1 | 16 | 2 | 6 | 4 | 17 |
+| 360d | 2025-10-01 | 1 | 22 | 2 | 14 | 8 | 22 |
+| last720d | 2024-10-06 | 3 | 40 | 3 | 19 | 21 | 43 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for grpcurl lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260925.yml` · 2026-09-25T05:04:47Z._
+_Snapshot: `data/card/260926.yml` · 2026-09-26T05:14:51Z._
