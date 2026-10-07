@@ -32,7 +32,7 @@ Lowest-scoring checks:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Security-Policy** (0/10) — security policy file not detected
-- **Fuzzing** (0/10) — project is not fuzzed
+- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,838 · **Forks**: 582 · **Open issues**: 282 · **Contributors**: 73
+- **Stars**: 12,839 · **Forks**: 582 · **Open issues**: 282 · **Contributors**: 73
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 0 | 0 | 2 | 0 | 1 | 0 |
-| last60d | 2026-08-07 | 1 | 5 | 2 | 0 | 3 | 5 |
-| 90d | 2026-07-08 | 1 | 8 | 2 | 0 | 3 | 8 |
-| last180d | 2026-04-09 | 1 | 15 | 2 | 6 | 4 | 17 |
-| 360d | 2025-10-11 | 1 | 21 | 2 | 14 | 8 | 21 |
-| last720d | 2024-10-16 | 3 | 40 | 3 | 19 | 18 | 42 |
+| 30d | 2026-09-07 | 0 | 0 | 2 | 0 | 1 | 0 |
+| last60d | 2026-08-08 | 1 | 5 | 2 | 0 | 3 | 5 |
+| 90d | 2026-07-09 | 1 | 8 | 2 | 0 | 3 | 8 |
+| last180d | 2026-04-10 | 1 | 15 | 2 | 5 | 4 | 17 |
+| 360d | 2025-10-12 | 1 | 21 | 2 | 14 | 8 | 21 |
+| last720d | 2024-10-17 | 3 | 40 | 3 | 19 | 18 | 42 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for grpcurl lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T06:24:23Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T05:56:35Z._
