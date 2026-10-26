@@ -1,36 +1,17 @@
-- repo: nix_stable_25_05
+- repo: homebrew
   srcname: grpcurl
   visiblename: grpcurl
-  version: 1.9.3
+  version: HEAD
   origversion: null
-  status: outdated
-  summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
-  maintainers:
-    - nikola@knezevic.co
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
+  status: rolling
+  summary: Like cURL, but for gRPC
+- repo: homebrew
   srcname: grpcurl
   visiblename: grpcurl
-  version: 1.9.3
+  version: 1.9.4
   origversion: null
-  status: outdated
-  summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
-  maintainers:
-    - nikola@knezevic.co
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: grpcurl
-  visiblename: grpcurl
-  version: 1.9.1
-  origversion: null
-  status: outdated
-  summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
-  maintainers:
-    - nikola@knezevic.co
-  licenses:
-    - MIT
+  status: newest
+  summary: Like cURL, but for gRPC
 - repo: alpine_edge
   subrepo: testing
   srcname: grpcurl
@@ -351,20 +332,6 @@
     - MIT
   categories:
     - net-misc
-- repo: homebrew
-  srcname: grpcurl
-  visiblename: grpcurl
-  version: 1.9.4
-  origversion: null
-  status: newest
-  summary: Like cURL, but for gRPC
-- repo: homebrew
-  srcname: grpcurl
-  visiblename: grpcurl
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Like cURL, but for gRPC
 - repo: liguros_stable
   srcname: net-misc/grpcurl
   visiblename: net-misc/grpcurl
@@ -378,6 +345,16 @@
     - MIT
   categories:
     - net-misc
+- repo: termux
+  srcname: grpcurl
+  binname: grpcurl
+  visiblename: grpcurl
+  version: 1.9.4
+  origversion: null
+  status: newest
+  summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
+  maintainers:
+    - termux@github
 - repo: liguros_develop
   srcname: net-misc/grpcurl
   visiblename: net-misc/grpcurl
@@ -409,6 +386,39 @@
   srcname: grpcurl
   visiblename: grpcurl
   version: 1.9.1
+  origversion: null
+  status: outdated
+  summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
+  maintainers:
+    - nikola@knezevic.co
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: grpcurl
+  visiblename: grpcurl
+  version: 1.9.1
+  origversion: null
+  status: outdated
+  summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
+  maintainers:
+    - nikola@knezevic.co
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: grpcurl
+  visiblename: grpcurl
+  version: 1.9.3
+  origversion: null
+  status: outdated
+  summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
+  maintainers:
+    - nikola@knezevic.co
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: grpcurl
+  visiblename: grpcurl
+  version: 1.9.3
   origversion: null
   status: outdated
   summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
@@ -455,7 +465,7 @@
   binname: grpcurl
   visiblename: net/grpcurl
   version: 1.9.1
-  origversion: 1.9.1nb20
+  origversion: 1.9.1nb21
   status: outdated
   summary: Command-line tool that lets you interact with gRPC servers
   maintainers:
@@ -493,16 +503,6 @@
     - slackbuilds@dscp.org
   categories:
     - network
-- repo: termux
-  srcname: grpcurl
-  binname: grpcurl
-  visiblename: grpcurl
-  version: 1.9.4
-  origversion: null
-  status: newest
-  summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
-  maintainers:
-    - termux@github
 - repo: void_x86_64
   subrepo: x86_64
   srcname: grpcurl
