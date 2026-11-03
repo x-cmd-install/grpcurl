@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.9.4` (2026-08-31)
-- **Last commit**: 2026-10-13
+- **Last commit**: 2026-11-02
 - **Assets in release**: 30
 
 ## Popularity
 
-- **Stars**: 12,871 · **Forks**: 587 · **Open issues**: 283 · **Contributors**: 72
+- **Stars**: 12,872 · **Forks**: 587 · **Open issues**: 283 · **Contributors**: 72
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 228 · **Open PRs**: 13 · **Closed issues**: 175 · **Open issues**: 108 · **Commits**: 252
+- **Releases**: 28 · **Merged PRs**: 229 · **Open PRs**: 13 · **Closed issues**: 175 · **Open issues**: 108 · **Commits**: 253
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 0 | 1 | 2 | 0 | 1 | 1 |
-| last60d | 2026-09-03 | 0 | 1 | 4 | 0 | 2 | 1 |
-| 90d | 2026-08-04 | 1 | 6 | 4 | 0 | 4 | 6 |
-| last180d | 2026-05-06 | 1 | 16 | 4 | 5 | 5 | 17 |
-| 360d | 2025-11-07 | 1 | 20 | 4 | 14 | 9 | 20 |
-| last720d | 2024-11-12 | 3 | 41 | 5 | 19 | 19 | 42 |
+| 30d | 2026-10-04 | 0 | 2 | 2 | 0 | 1 | 2 |
+| last60d | 2026-09-04 | 0 | 2 | 4 | 0 | 2 | 2 |
+| 90d | 2026-08-05 | 1 | 7 | 4 | 0 | 4 | 7 |
+| last180d | 2026-05-07 | 1 | 16 | 4 | 5 | 5 | 18 |
+| 360d | 2025-11-08 | 1 | 21 | 4 | 14 | 9 | 21 |
+| last720d | 2024-11-13 | 3 | 42 | 5 | 19 | 19 | 43 |
 
 ## Release assets
 
@@ -102,7 +102,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **40** distros on [repology.org](https://repology.org/project/grpcurl). **14** are ✅ on the latest upstream release, **20** are ⚠️ on an older version.
+Reported by **40** distros on [repology.org](https://repology.org/project/grpcurl). **15** are ✅ on the latest upstream release, **19** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -121,4 +121,4 @@ Install metadata for grpcurl lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T06:06:45Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T06:56:58Z._
