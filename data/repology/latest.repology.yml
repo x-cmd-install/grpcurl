@@ -214,22 +214,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: updates
-  srcname: grpcurl
-  binnames:
-    - grpcurl
-    - grpcurl-debuginfo
-    - grpcurl-debugsource
-  visiblename: grpcurl
-  version: 1.9.4
-  origversion: 1.9.4-1.fc43
-  status: newest
-  summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
-  licenses:
-    - Apache-2.0 AND BSD-3-Clause AND MIT
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: release
   srcname: grpcurl
   binnames:
@@ -240,6 +224,22 @@
   version: 1.9.3
   origversion: 1.9.3-4.fc43
   status: legacy
+  summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
+  licenses:
+    - Apache-2.0 AND BSD-3-Clause AND MIT
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: updates
+  srcname: grpcurl
+  binnames:
+    - grpcurl
+    - grpcurl-debuginfo
+    - grpcurl-debugsource
+  visiblename: grpcurl
+  version: 1.9.4
+  origversion: 1.9.4-1.fc43
+  status: newest
   summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
   licenses:
     - Apache-2.0 AND BSD-3-Clause AND MIT
@@ -345,16 +345,6 @@
     - MIT
   categories:
     - net-misc
-- repo: termux
-  srcname: grpcurl
-  binname: grpcurl
-  visiblename: grpcurl
-  version: 1.9.4
-  origversion: null
-  status: newest
-  summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
-  maintainers:
-    - termux@github
 - repo: liguros_develop
   srcname: net-misc/grpcurl
   visiblename: net-misc/grpcurl
@@ -465,7 +455,7 @@
   binname: grpcurl
   visiblename: net/grpcurl
   version: 1.9.1
-  origversion: 1.9.1nb21
+  origversion: 1.9.1nb22
   status: outdated
   summary: Command-line tool that lets you interact with gRPC servers
   maintainers:
@@ -503,6 +493,16 @@
     - slackbuilds@dscp.org
   categories:
     - network
+- repo: termux
+  srcname: grpcurl
+  binname: grpcurl
+  visiblename: grpcurl
+  version: 1.9.4
+  origversion: null
+  status: newest
+  summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
+  maintainers:
+    - termux@github
 - repo: void_x86_64
   subrepo: x86_64
   srcname: grpcurl
