@@ -116,23 +116,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: release
-  srcname: grpcurl
-  binnames:
-    - grpcurl
-    - golang-github-fullstorydev-grpcurl-devel
-    - grpcurl-debuginfo
-    - grpcurl-debugsource
-  visiblename: grpcurl
-  version: 1.8.7
-  origversion: 1.8.7-3.fc38
-  status: legacy
-  summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: updates
   srcname: grpcurl
   binnames:
@@ -148,22 +131,34 @@
     - Apache-2.0 AND BSD-3-Clause AND MIT
   categories:
     - Unspecified
-- repo: fedora_41
-  subrepo: updates
+- repo: fedora_40
+  subrepo: release
   srcname: grpcurl
   binnames:
     - grpcurl
+    - golang-github-fullstorydev-grpcurl-devel
     - grpcurl-debuginfo
     - grpcurl-debugsource
   visiblename: grpcurl
-  version: 1.9.3
-  origversion: 1.9.3-1.fc41
-  status: outdated
+  version: 1.8.7
+  origversion: 1.8.7-3.fc38
+  status: legacy
   summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
   licenses:
-    - Apache-2.0 AND BSD-3-Clause AND MIT
+    - MIT
   categories:
     - Unspecified
+- repo: nix_stable_25_11
+  srcname: grpcurl
+  visiblename: grpcurl
+  version: 1.9.3
+  origversion: null
+  status: outdated
+  summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
+  maintainers:
+    - nikola@knezevic.co
+  licenses:
+    - MIT
 - repo: fedora_41
   subrepo: release
   srcname: grpcurl
@@ -181,7 +176,7 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_42
+- repo: fedora_41
   subrepo: updates
   srcname: grpcurl
   binnames:
@@ -190,7 +185,7 @@
     - grpcurl-debugsource
   visiblename: grpcurl
   version: 1.9.3
-  origversion: 1.9.3-6.fc42
+  origversion: 1.9.3-1.fc41
   status: outdated
   summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
   licenses:
@@ -213,8 +208,8 @@
     - Apache-2.0 AND BSD-3-Clause AND MIT
   categories:
     - Unspecified
-- repo: fedora_43
-  subrepo: release
+- repo: fedora_42
+  subrepo: updates
   srcname: grpcurl
   binnames:
     - grpcurl
@@ -222,8 +217,8 @@
     - grpcurl-debugsource
   visiblename: grpcurl
   version: 1.9.3
-  origversion: 1.9.3-4.fc43
-  status: legacy
+  origversion: 1.9.3-6.fc42
+  status: outdated
   summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
   licenses:
     - Apache-2.0 AND BSD-3-Clause AND MIT
@@ -240,6 +235,22 @@
   version: 1.9.4
   origversion: 1.9.4-1.fc43
   status: newest
+  summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
+  licenses:
+    - Apache-2.0 AND BSD-3-Clause AND MIT
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: grpcurl
+  binnames:
+    - grpcurl
+    - grpcurl-debuginfo
+    - grpcurl-debugsource
+  visiblename: grpcurl
+  version: 1.9.3
+  origversion: 1.9.3-4.fc43
+  status: legacy
   summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
   licenses:
     - Apache-2.0 AND BSD-3-Clause AND MIT
@@ -271,6 +282,22 @@
   visiblename: grpcurl
   version: 1.9.4
   origversion: 1.9.4-1.fc44
+  status: newest
+  summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
+  licenses:
+    - Apache-2.0 AND BSD-3-Clause AND MIT
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: grpcurl
+  binnames:
+    - grpcurl
+    - grpcurl-debuginfo
+    - grpcurl-debugsource
+  visiblename: grpcurl
+  version: 1.9.4
+  origversion: 1.9.4-1.fc45
   status: newest
   summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
   licenses:
@@ -395,17 +422,6 @@
   licenses:
     - MIT
 - repo: nix_stable_25_05
-  srcname: grpcurl
-  visiblename: grpcurl
-  version: 1.9.3
-  origversion: null
-  status: outdated
-  summary: 'Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers'
-  maintainers:
-    - nikola@knezevic.co
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
   srcname: grpcurl
   visiblename: grpcurl
   version: 1.9.3
