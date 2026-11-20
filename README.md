@@ -14,14 +14,14 @@ x install grpcurl
 
 ## Code insight
 
-Total: **9,659** lines of code across **37** files in the top 5 languages.
+Total: **9,634** lines of code across **37** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 9,161 | 894 | 1,272 | 26 |
+| Go | 9,161 | 887 | 1,272 | 26 |
 | Protobuf | 264 | 142 | 74 | 6 |
 | Sh | 86 | 34 | 32 | 3 |
-| Makefile | 78 | 9 | 20 | 1 |
+| Makefile | 53 | 7 | 14 | 1 |
 | Yaml | 45 | 1 | 1 | 1 |
 
 ## OpenSSF Scorecard
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.9.4` (2026-08-31)
-- **Last commit**: 2026-11-02
+- **Last commit**: 2026-11-19
 - **Assets in release**: 30
 
 ## Popularity
 
-- **Stars**: 12,887 · **Forks**: 586 · **Open issues**: 284 · **Contributors**: 72
+- **Stars**: 12,887 · **Forks**: 587 · **Open issues**: 284 · **Contributors**: 73
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 229 · **Open PRs**: 15 · **Closed issues**: 176 · **Open issues**: 108 · **Commits**: 253
+- **Releases**: 28 · **Merged PRs**: 230 · **Open PRs**: 13 · **Closed issues**: 176 · **Open issues**: 108 · **Commits**: 254
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 0 | 1 | 2 | 0 | 2 | 1 |
-| last60d | 2026-09-20 | 0 | 2 | 4 | 0 | 2 | 2 |
-| 90d | 2026-08-21 | 1 | 6 | 6 | 0 | 4 | 6 |
-| last180d | 2026-05-23 | 1 | 15 | 6 | 5 | 5 | 17 |
-| 360d | 2025-11-24 | 1 | 21 | 6 | 13 | 10 | 21 |
-| last720d | 2024-11-29 | 2 | 41 | 7 | 20 | 18 | 42 |
+| 30d | 2026-10-21 | 0 | 2 | 0 | 0 | 2 | 2 |
+| last60d | 2026-09-21 | 0 | 3 | 2 | 0 | 2 | 3 |
+| 90d | 2026-08-22 | 1 | 7 | 4 | 0 | 4 | 7 |
+| last180d | 2026-05-24 | 1 | 16 | 4 | 5 | 5 | 18 |
+| 360d | 2025-11-25 | 1 | 22 | 4 | 13 | 10 | 22 |
+| last720d | 2024-11-30 | 2 | 42 | 5 | 20 | 18 | 43 |
 
 ## Release assets
 
@@ -121,4 +121,4 @@ Install metadata for grpcurl lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T08:03:15Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T07:52:31Z._
